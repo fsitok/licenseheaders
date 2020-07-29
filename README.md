@@ -157,6 +157,9 @@ html:
 css:
 - extensions .css, .scss, .sass
 
+php:
+- extensions .php
+
 docker:
 - extensions .dockerfile
 - filenames Dockerfile
