@@ -197,6 +197,18 @@ typeSettings = {
         "headerLinePrefix": "-- ",
         "headerLineSuffix": None
     },
+    "php": {
+        "extensions": [".php"],
+        "keepFirst": None,
+        "blockCommentStartPattern": re.compile(r'^\s*<\?php\s*/\*\*'),
+        "blockCommentEndPattern": re.compile(r'\*/\s*\?>\s*$'),
+        "lineCommentStartPattern": None,
+        "lineCommentEndPattern": None,
+        "headerStartLine": "<?php /**\n",
+        "headerEndLine": " */ ?>\n\n",
+        "headerLinePrefix": " * ",
+        "headerLineSuffix": ""
+    },
     "css": {
         "extensions": [".css", ".scss", ".sass"],
         "keepFirst": None,
